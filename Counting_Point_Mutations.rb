@@ -12,8 +12,6 @@ dna_strings = file.read
 # Place strings in array one element per line
 dna_array = dna_strings.split(/\r?\n/)
 
-#puts dna_array.inspect
-
 dna0 =  dna_array[0].chars.to_a
 dna1 =  dna_array[1].chars.to_a
 pt_mutation = 0
